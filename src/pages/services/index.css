@@ -1,0 +1,37 @@
+.services{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+.textServices {
+    margin-left: 142px;
+}
+.textServices h1{
+    color: black;
+    height: 120px;
+    width: 398px;
+    font-size: 48px;
+    font-weight: 700;
+}
+.textServices .about{
+    color: black;
+    width: 465px;
+    height: 145px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.textServices a{
+    color: black;
+    width: 87px;
+    height: 28px;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.asset{
+    background: url('./leftGirl.png');
+    height: 567px;
+    width: 562px;
+}
