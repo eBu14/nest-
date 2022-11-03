@@ -5,27 +5,34 @@
     display: flex;
     align-items: center;
 }
-.text h1{
+.textContact{
+    margin-left: 10%;    
+}
+.textContact h1{
     height: 120px;
     width: 398px;
-    color: black;
     font-size: 48px;
     font-weight: 800;
+    color: black;
+    margin-left: 30px;
 }
-.text .about{
+.textContact .about{
+    color: black;
+    margin-top: 20px;
     height: 145px;
     width: 465px;
     font-size: 18px;
     font-weight: 600;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.text a{
+.textContact a{
     height: 28px;
     width: 87px;
+    color: black;
 }
 .backImage{
     background: url('./glassgril.png');
     height: 567px;
     width: 562px;
-    margin-left: 143px;
+    margin-left: 20%;
 }

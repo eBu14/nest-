@@ -12,6 +12,7 @@ import Contact from './pages/contact/contact';
 import Login from './pages/login/login';
 import SignUp from './pages/signup/signup';
 import About from './pages/about/about';
+import Info from './pages/info/info';
 function Routers() {
   return (
    <Routes>
@@ -44,8 +45,8 @@ function App() {
         <Services/>
         <Contact/>
         <About/>
+        <Info/>
       </div>
-    
       {/* <Routers/> */}
     </Router>
 

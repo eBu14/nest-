@@ -1,0 +1,55 @@
+.rectangle{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 340px;
+    width: 366px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.star{  
+    
+    margin-left: 33px;
+}
+.star i{
+    color: #FFBB00;
+    height: 17px;
+    width: 17px;
+}
+.about{
+    margin-top: 24px;
+    height: 154px;
+    width: 291px;
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+    margin-left: 33px;
+    margin-right: 42px;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    align-items: center;
+    margin-top: 20px;
+}
+.profile .image{
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: black;
+}
+.profile .name{
+    margin-left: 20px;
+    height: 29px;
+    width: 109px;
+    font-weight: 600;
+    font-size: 16px;
+    color: black;
+    line-height: 30px;
+    display: flex;
+
+}

@@ -13,6 +13,7 @@
     width: 398px;
     font-size: 48px;
     font-weight: 700;
+    margin-left: 30px;
 }
 .textServices .about{
     color: black;
@@ -34,4 +35,5 @@
     background: url('./leftGirl.png');
     height: 567px;
     width: 562px;
+    margin-left: 142px;
 }

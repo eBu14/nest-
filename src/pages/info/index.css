@@ -1,0 +1,77 @@
+.info{
+    height: 336px;
+    width: 100vw;
+    background-color: #252B3B;
+    display: flex;
+
+}
+.texts{
+    display: flex;
+    margin-left: 143px;
+    margin-right: 143px;
+    align-items: center;
+    width: 100vw;
+    justify-content: space-between;
+}
+.line1 div{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 6px;
+}
+.line1 div i{
+    height: 16px;
+    width: 16px;
+
+}
+.line1 h1{
+    margin-bottom: 22px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+}
+.line2{
+    margin-left: 185px;
+}
+.line2 .line2head{
+}
+.line2 .line2Menu{
+    margin-top: 30px;
+}
+.line2 .line2Menu div{
+    margin-top: 6px;
+}
+.line3 .line3menu{
+    margin-top: 30px;
+}
+.line3 .line3menu div{
+    margin-top: 6px;
+}
+.line4 .line4menu{
+    margin-top: 30px;
+}
+.line4 .line4menu div{
+    margin-top: 6px;
+}
+.line5 div{
+    font-size: 18px;
+    font-weight: 500;
+}
+.line5 button{
+    margin-top: 20px;
+    width: 297px;
+    height: 56px;
+    background-color: white;
+    display: flex;
+    color: #4DA0FD;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px;
+    outline: 0;
+    border: none;
+}
+.line5 button i {
+    color: #4DA0FD;
+}

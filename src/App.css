@@ -27,13 +27,15 @@
   font-size: 27px;
   margin-top: 20px;
   margin-left: 130px;
+  color: white;
+  text-decoration: none;
 }
 .basicMenu{
   display: flex;
   justify-content: space-between;
   width: 490px;
   margin-right: 115px;
-
+  
 }
 .menubutton{
   height: 28px;
@@ -42,6 +44,8 @@
   font-weight: 400;
   font-size: 16px;
   align-items: center;
+  color: white;
+  text-decoration: none;
 }
 .signupButton{
   height: 56px;
@@ -53,4 +57,5 @@
   align-items: center;
   justify-content: center;
   margin-top: 5px;
+  text-decoration: none;
 }
