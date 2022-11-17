@@ -16,6 +16,8 @@ import Info from './pages/info/info';
 import { useContext, useEffect } from 'react';
 import { ColorModeContext, TooProvider } from './provider/provider'
 import { SwitchButton } from './button';
+import BlogPost from './pages/blog/blogPost';
+import PostPage from './pages/postpage/postPage';
 function Routers() {
   return (
     <Routes>
@@ -25,6 +27,8 @@ function Routers() {
       <Route path='/contact' element={<Contact />} />
       <Route path='/login' element={<Login />} />
       <Route path='/signup' element={<SignUp />} />
+      <Route path='/blog' element={<BlogPost/>} />
+      <Route path='/post/:postId' element={<PostPage/>} />
     </Routes>
   );
 }
@@ -33,8 +37,8 @@ function App() {
 
   const { darkMode, ToggleSwitch } = useContext(ColorModeContext)
   const style = {
-    background: darkMode ? "black" : "white",
-    color: darkMode ? "white" : "black"
+    background: "black",
+    color: "black"
   }
   useEffect(() => {
     console.log(darkMode)
@@ -47,21 +51,23 @@ function App() {
           <Link className='basicLogo' to='/'>team.</Link>
           <div className='basicMenu'>
             <SwitchButton value={darkMode} ToggleSwitch={ToggleSwitch} />
-            <Link className='menubutton' to='/product'>Product</Link>
-            <Link className='menubutton' to='/services'>Services</Link>
+            {/* <Link className='menubutton' to='/product'>Product</Link> */}
+            {/* <Link className='menubutton' to='/services'>Services</Link> */}
+            <Link className='menubutton' to='/'>Home</Link>
+            <Link className='menubutton' to='blog'>Blog</Link>
             <Link className='menubutton' to='/contact'>Contact</Link>
             <Link className='menubutton' to='/login'>Log in </Link>
-            <Link className='signupButton' to='/signup'>Sign up</Link>
+            <Link className='signupButton' to='/signup'>Get acces </Link>
           </div>
         </div>
-        <Home />
+        {/* <Home />
         <Product />
         <Services />
         <Contact />
         <About />
-        <Info />
+        <Info /> */}
       </div>
-      {/* <Routers/> */}
+      <Routers/>
     </Router>
 
   )

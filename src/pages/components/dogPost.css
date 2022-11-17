@@ -1,0 +1,59 @@
+*{
+    font-family:sans-serif;
+}
+.DogPost{
+    height: 350px;
+    width:300px;
+    border: 1px solid grey;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    border-radius: 21px;
+    margin-top: 40px
+};
+
+.post{
+    height: 150px;
+    width: 100vw;
+}
+
+img{
+    height: 150px;
+    width: 300px;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+.ProfilePicture{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+}
+.tagsAbout{
+    margin-left: 14px;
+    font-weight: 500;
+}
+.text{
+    margin-left: 14px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.user{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+    font-size: 17px;
+    font-weight: 100;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+.username{
+    display: flex;
+
+}
+.name{
+    display: flex;
+    flex-direction: row;
+}

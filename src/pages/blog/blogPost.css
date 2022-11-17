@@ -1,0 +1,13 @@
+.blogpost{
+    height: 100vh;
+    width: 100vw;
+}
+.homepage{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 200px;
+    /* margin: 300px; */
+    justify-content: space-between;
+    margin-left: 450px;
+    margin-right: 450px;
+}
